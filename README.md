@@ -1,7 +1,7 @@
 # Movie Recommendation Application
 
  This movie recommendation application recommends movies in classified manner. This application uses content based and collaborative filtering.
- This application uses tmdb_5000_movies dataset. There are different columns such as title, movie id, movie summary etc.
+ This application uses tmdb_5000_movies dataset. There are different columns in the dataset such as title, movie id, movie summary etc.
  When user selects a movie, the algorithm will compare selected movie's summary with other movies and calculates cosine similarity distance and it will display the results in descending order of cosine distance so if selected movie exists in the dataset the cosine distance will be 1 and the next movie's distance can be 0.9.
  This application also recommends movies which other users have searched with similar interest. This application can perform actor based and genre based filtering.
  
